@@ -51,13 +51,13 @@ const zucchine = [
   }
 ];
 
-sommaPesoZucchine();
+sommaPesoZucchine(zucchine);
 
-function sommaPesoZucchine(){
+function sommaPesoZucchine(collection){
   let somma = 0;
-   for (const i in zucchine) {
-     console.log(zucchine[i].pesoInKg, typeof(zucchine[i].pesoInKg));
-     somma += zucchine[i].pesoInKg;    
+   for (const i in collection) {
+     console.log(collection[i].pesoInKg, typeof(collection[i].pesoInKg));
+     somma += collection[i].pesoInKg;    
    }
   console.log(somma, 'Kg')
 }
