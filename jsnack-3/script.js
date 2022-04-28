@@ -26,8 +26,8 @@
 //   } 
 //   console.log(output);
 // }
-// stri = 'cacca'
-// giraTutto(stri)
+// 
+// giraTutto('ciao')
 
 const giraTuttoDue = (string) => string.split('').reverse().join('');
 

@@ -57,7 +57,7 @@ const zucchineGrandi = [];
 for (const i in zucchine) {
   console.log(zucchine[i]);
   (zucchine[i].lunghezzaInCm < 16) ? zucchinePiccole.push(zucchine[i]) : zucchineGrandi.push(zucchine[i]);
-  
 }
-console.log('piccole',zucchinePiccole )
-console.log('grandi',zucchineGrandi )
+
+console.log('piccole',zucchinePiccole );
+console.log('grandi',zucchineGrandi );
